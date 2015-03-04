@@ -10,5 +10,13 @@ describe('Tool', function(){
     it('should sum 1 and 2 to 3', function(){
       assert.equal(tool.sum(1, 2), 3);
     })
+    it('should only accept numbers!', function(){
+      assert.throws(
+        function() {
+          tool.sum(1, '2')
+        },
+        new Error("only works with numbers")
+      );
+    })
   })
 });
