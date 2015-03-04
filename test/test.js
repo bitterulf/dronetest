@@ -7,5 +7,8 @@ describe('Tool', function(){
     it('should return the given name', function(){
       assert.equal(tool.getName(), 'funky');
     })
+    it('should sum 1 and 2 to 3', function(){
+      assert.equal(tool.sum(1, 2), 3);
+    })
   })
 });
