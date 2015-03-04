@@ -1,0 +1,19 @@
+{
+  "name": "dronetest",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitterulf/dronetest.git"
+  },
+  "author": "",
+  "license": "-",
+  "bugs": {
+    "url": "https://github.com/bitterulf/dronetest/issues"
+  },
+  "homepage": "https://github.com/bitterulf/dronetest"
+}
