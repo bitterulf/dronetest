@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bitterulf/dronetest/issues"
   },
-  "homepage": "https://github.com/bitterulf/dronetest"
+  "homepage": "https://github.com/bitterulf/dronetest",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
 }
