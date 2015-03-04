@@ -11,9 +11,10 @@ Tool.prototype.getName = function() {
 };
 
 Tool.prototype.sum = function(a, b) {
-  if (!isNumber(a) || !isNumber(b)) throw new Error("only works with numbers");
+  if (!isNumber(a) || !isNumber(b))  {
+    throw new Error("only works with numbers");
+  }
   return a + b;
 };
-
 
 module.exports = Tool;

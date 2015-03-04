@@ -13,9 +13,9 @@ describe('Tool', function(){
     it('should only accept numbers!', function(){
       assert.throws(
         function() {
-          tool.sum(1, '2')
+          tool.sum(1, 'a')
         },
-        new Error("only works with numbers")
+        /only works with numbers/
       );
     })
   })
