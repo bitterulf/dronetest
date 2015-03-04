@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "lint": "jshint app.js",
+    "test": "mocha test",
+    "build": "browserify app.js -o bundle.0.0.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/bitterulf/dronetest",
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "browserify": "^9.0.3",
+    "jshint": "^2.6.3"
   }
 }
